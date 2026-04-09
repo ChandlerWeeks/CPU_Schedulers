@@ -1,0 +1,9 @@
+pid,arrival_time,burst_time,priority,queue_level
+P1,0,8,3,1
+P2,1,4,1,0
+P3,2,9,4,2
+P4,3,5,2,1
+P5,4,2,5,0
+P6,5,6,1,2
+P7,6,3,3,1
+P8,7,1,2,0

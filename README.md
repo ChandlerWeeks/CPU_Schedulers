@@ -2,7 +2,7 @@
 
 This project is a small Python notebook that simulates common CPU scheduling algorithms from a CSV input file and visualizes the result as a Gantt chart. It also computes per-process and average scheduling metrics such as response time, waiting time, and turnaround time.
 
-The simulator is implemented in [`cpu_scheduler.ipynb`](/Users/chandler/Desktop/CPU%20Simulator/cpu_scheduler.ipynb) and uses [`processes.csv`](/Users/chandler/Desktop/CPU%20Simulator/processes.csv) as its input dataset.
+The simulator is implemented in [`cpu_scheduler.ipynb`](./cpu_scheduler.ipynb) and uses [`processes.csv`](./processes.csv) as its input dataset.
 
 ## Features
 
@@ -31,9 +31,9 @@ The notebook supports the following scheduling modes:
 
 ## Project Structure
 
-- [`cpu_scheduler.ipynb`](/Users/chandler/Desktop/CPU%20Simulator/cpu_scheduler.ipynb): main simulator notebook
-- [`processes.csv`](/Users/chandler/Desktop/CPU%20Simulator/processes.csv): sample process dataset
-- [`README.md`](/Users/chandler/Desktop/CPU%20Simulator/README.md): project documentation
+- [`cpu_scheduler.ipynb`](./cpu_scheduler.ipynb): main simulator notebook
+- [`processes.csv`](./processes.csv): sample process dataset
+- [`README.md`](./README.md): project documentation
 
 ## Input Format
 
@@ -84,8 +84,8 @@ jupyter notebook cpu_scheduler.ipynb
 
 ## How To Use
 
-1. Open [`cpu_scheduler.ipynb`](/Users/chandler/Desktop/CPU%20Simulator/cpu_scheduler.ipynb).
-2. Make sure [`processes.csv`](/Users/chandler/Desktop/CPU%20Simulator/processes.csv) contains the processes you want to simulate.
+1. Open [`cpu_scheduler.ipynb`](./cpu_scheduler.ipynb).
+2. Make sure [`processes.csv`](./processes.csv) contains the processes you want to simulate.
 3. In the configuration cell, set:
    - `ALGORITHM` to one of the supported algorithm keys
    - `QUANTUM` for `RR` or `MLQ`
